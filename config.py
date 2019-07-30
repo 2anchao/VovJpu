@@ -1,17 +1,3 @@
-'''
-Copyright (c) 2019, Shining 3D Tech Co., Ltd.
-All rights reserved.
-
-Function: configure the hyper-parameters.
-
-Version: 20190613v1
-Author: Yan Tian
-Revision: add comments of the variables.
-
-Version: 20190612v1
-Author: Jiachen Wu
-Revision: the hyper-parameters are obtained from the config.py file.
-'''
 
 import datetime
 
