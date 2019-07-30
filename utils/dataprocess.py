@@ -1,23 +1,3 @@
-'''
-Copyright (c) 2019, Shining 3D Tech Co., Ltd.
-All rights reserved.
-
-Function: pre-process.
-
-Version: 20190607v1
-Author: Jiachen Wu
-Revision: transfer code from Keras to Pytorch.
-'''
-
-import numpy as np
-import matplotlib.pyplot as plt
-import os
-from PIL import Image
-from torch.utils.data import Dataset
-from torch.utils.data import DataLoader
-from torchvision import transforms
-import random
-
 
 '''
 Function: read data
