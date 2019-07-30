@@ -1,6 +1,7 @@
 # VovJpu
 ## Model 
 >> I use the vovnet39 as the backbone to extract features.
+
 >> the vovnet39 is described in paper:An Energy and GPU-Computation Efficient Backbone Network for Real-Time Object Detection.the download link is :https://arxiv.org/abs/1904.09730
 
 >> Jpu is used to get more semantic information that combine with vovnet39.
