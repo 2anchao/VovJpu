@@ -11,6 +11,7 @@
 ## Model structure
 >> **OSA:** is the core structure for vovnet.
 ![osa](images/1.jpg)
+
 >> **JPU:** is the core structure for FastFCN.
 ![jpu](images/2.jpg)
 
