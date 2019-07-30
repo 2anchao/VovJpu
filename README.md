@@ -5,6 +5,7 @@
 >> -->>The vovnet39 is described in paper:An Energy and GPU-Computation Efficient Backbone Network for Real-Time Object Detection.the download link is :https://arxiv.org/abs/1904.09730
 
 >> Jpu is used to get more semantic information that combine with vovnet39.
+
 >> -->>The Jpu is described in paper:FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation.the download link is :http://export.arxiv.org/abs/1903.11816
 ## Environment
 >> If you want to implement this project.the environment need build as follow:
