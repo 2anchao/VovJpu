@@ -1,18 +1,4 @@
 #coding=utf-8
-'''
-Copyright (c) 2019, Shining 3D Tech Co., Ltd.
-All rights reserved.
-
-Function: whole process of training the segmentation network.
-
-Version: 20190612v1
-Author: Jiachen Wu
-Revision: the hyper-parameters are obtained from the config.py file.
-
-Version: 20190607v1
-Author: Jiachen Wu
-Revision: transfer code from Keras to Pytorch.
-'''
 
 import datetime
 import matplotlib.pyplot as plt
