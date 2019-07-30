@@ -1,10 +1,10 @@
 # VovJpu
 ## Model 
->> I use the vovnet39 as the backbone to extract features.
+>> I use the vovnet27 as the backbone to extract features.
 
->> -->>The vovnet39 is described in paper:An Energy and GPU-Computation Efficient Backbone Network for Real-Time Object Detection.the download link is :https://arxiv.org/abs/1904.09730
+>> -->>The vovnet27 is described in paper:An Energy and GPU-Computation Efficient Backbone Network for Real-Time Object Detection.the download link is :https://arxiv.org/abs/1904.09730
 
->> Jpu is used to get more semantic information that combine with vovnet39.
+>> Jpu is used to get more semantic information that combine with vovnet27.
 
 >> -->>The Jpu is described in paper:FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation.the download link is :http://export.arxiv.org/abs/1903.11816
 
@@ -36,7 +36,7 @@
 
 >> The script metrics.py is defined miou.
 
->> The script vov_jpu.py is Vovnet39 combine the Jpu.
+>> The script vov_jpu.py is Vovnet27 combine the Jpu.
 
 >> The script train.py is for train the model.
 
