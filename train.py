@@ -22,7 +22,7 @@ import torch
 import torch.nn as nn
 import torch.backends.cudnn as cudnn
 from config import config
-from vovnet import JPU
+from vov_jpu import VovJpu
 from tensorboardX import SummaryWriter
 from torch.utils.data import DataLoader
 from torchvision import transforms
@@ -162,7 +162,7 @@ if __name__ == '__main__':
     valid_loder = DataLoader(valid_dataset, batch_size = 1, shuffle = False, num_workers = 4)
 
 
-    model = JPU()#the choice_head can choice "design" or "build_aspp_decoder"
+    model = VovJpu()#the choice_head can choice "design" or "build_aspp_decoder"
 
     criterion = nn.CrossEntropyLoss()
     metrics = IoUMetric(eps=1., activation="softmax2d")
