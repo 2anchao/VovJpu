@@ -10,9 +10,11 @@
 
 ## Model structure
 >> **OSA:** is the core structure for vovnet.
+
 ![osa](images/vovnet.png)
 
 >> **JPU:** is the core structure for FastFCN.
+
 ![jpu](images/jpu.png)
 
 ## Environment
